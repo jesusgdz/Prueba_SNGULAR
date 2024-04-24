@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(124, 162, 167);
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  background-color: #2480bd;
+  border-radius: 2.5rem;
+  border: none;
+  box-shadow: 0 0 20px 0 rgba(51, 119, 171, 0.279);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #2480bd;
+  transition: all 0.5s ease-in-out;
+
+}
+
+button:disabled {
+  background-color: #d1d1d1;
+  color: #737373;
+  cursor: default;
+}
